@@ -42,4 +42,7 @@ void quick_sort(int *array, size_t size);
 /*Function that sorts an array of integers in ascending order*/
 void shell_sort(int *array, size_t size);
 
+/*Function that sorts a doubly linked list of integers in ascending*/
+void cocktail_sort_list(listint_t **list);
+
 #endif /* !_SORT_H_*/
