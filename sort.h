@@ -18,9 +18,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /*Prints an array and list of integers*/
@@ -29,5 +29,8 @@ void print_list(const listint_t *list);
 
 /*Function that sorts an array of integers in ascending order*/
 void bubble_sort(int *array, size_t size);
+
+/*Function that sorts a doubly linked list of integers in ascending order*/
+void insertion_sort_list(listint_t **list);
 
 #endif /* !_SORT_H_*/
